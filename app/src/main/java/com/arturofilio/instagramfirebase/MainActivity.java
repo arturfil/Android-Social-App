@@ -11,7 +11,6 @@ import android.view.MenuItem;
 
 import com.arturofilio.instagramfirebase.Fragment.HomeFragment;
 import com.arturofilio.instagramfirebase.Fragment.NotificationFragment;
-import com.arturofilio.instagramfirebase.Fragment.PostActivity;
 import com.arturofilio.instagramfirebase.Fragment.ProfileFragment;
 import com.arturofilio.instagramfirebase.Fragment.SearchFragment;
 import com.google.firebase.auth.FirebaseAuth;

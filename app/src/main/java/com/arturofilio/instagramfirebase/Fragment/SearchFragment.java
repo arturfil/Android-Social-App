@@ -78,7 +78,7 @@ public class SearchFragment extends Fragment {
         return view;
     }
 
-    private void searchUsers(String s) {
+    public void searchUsers(String s) {
         Query query  = FirebaseDatabase.getInstance().getReference("Users").orderByChild("fullname")
                 .startAt(s).endAt(s+"\uf8ff");
 
@@ -103,7 +103,7 @@ public class SearchFragment extends Fragment {
         });
     }
 
-    private void readUsers() {
+    public void readUsers() {
         DatabaseReference reference = FirebaseDatabase.getInstance().getReference("Users");
         reference.addValueEventListener(new ValueEventListener() {
             @Override
